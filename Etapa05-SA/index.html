@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escola Tecnica</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- CSS Próprio -->
+
+    <link rel="stylesheet" href="./etapa05.css">
+
+</head>
+<body>
+
+
+   <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img class="rounded-circle" src="./img/Logo.png" alt="">
+       <div class="text-center">
+        <a class="navbar-brand ml-5" href="./index.html">Penai - Escola Técnica</a>
+       </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./faleconosco.html">Fale Conosco</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./cadastrar.html">Cadastre-se</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./aluno.html">Entrada Aluno</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./professor.html">Entrada Professor</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+   </header>
+
+   <section>
+        <div class="jumbotron">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img id="mecanica" src="./img/tecnico-em-mecanica.jpg" class="d-block w-100" alt="..">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h3 id="amarelo">Equipamentos de alta qualidade para seu melhor aprendizado!</h3>
+                      <h5 id="amarelo">Aqui fornecemos o melhor para enaltecer a vontade de aprender.</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img id="edificaçao" src="./img/edificacoes.jpg" class="d-block w-100" alt="..">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h3>Qualificando profissionais da forma certa!</h3>
+                      <h5>Ajudando a construir o futuro!</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img id="eletronica" src="./img/eletronica.jpg" class="d-block w-100" alt="..">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h3>Conectividade sempre.</h3>
+                      <h5>Conectando tudo, desde os princípios!</h5>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+        </div>
+   </section>
+
+   <section>
+        <div class="row">
+            <div class="col-sm-12 text-dark text-center my-4">
+                <h1 class="text-dark">Turmas Disponíveis</h1>
+            </div>
+        </div>
+        <div class="card-deck mb-3">
+            <div class="card">
+            <img id="eletronica2" src="./img/curso-tecnico-eletronica.jpg" class="card-img-top" alt="Foto Curso Eletronico">
+            <div class="card-body">
+                <h5 class="card-title">Turma 22 - Técnico em Eletrônica</h5>
+                <p id="tipoTexto" class="card-text">O técnico em ELETROELETRÔNICA é o profissional que pode atuar no desenvolvimento e execução da instalação e manutenção de dispositivos e sistemas eletroeletrônicos, compreendendo as atividades de montagem, elaboração de relatórios e manuais técnicos e a realização de testes e ensaios visando identificar, localizar e corrigir falhas e defeitos em instalações, dispositivos e sistemas eletroeletrônicos, seguindo normas técnicas ambientais, de qualidade, saúde e segurança no trabalho.</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted"></small>
+            </div>
+            </div>
+            <div class="card">
+            <img src="./img/curso-mecanica.jpg" class="card-img-top" alt="Foto Curso Mecanica">
+            <div class="card-body">
+                <h5 class="card-title">Turma 44 - Técnico em Mecânica</h5>
+                <p id="tipoTexto" class="card-text">O técnico em MECÂNICA é o profissional habilitado que atua nos serviços de instalação e manutenção de máquinas e equipamentos industriais, coordenando equipes de trabalhos e auxiliando na elaboração de projetos e na execução de desenhos de equipamentos industriais e seus componentes. Prestar serviços nas áreas de usinagem e manutenção de máquinas e equipamentos.</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted"></small>
+            </div>
+            </div>
+            <div class="card">
+            <img src="./img/tecnico-em-edificacoes-construcao-civil.jpg" class="card-img-top" alt="Foto Curso Edificação">
+            <div class="card-body">
+                <h5 class="card-title">Turma 27 - Técnico em Edificações</h5>
+                <p class="card-text">TO técnico em EDIFICAÇÕES participa diretamente no projeto de uma obra, zelando pela legislação relacionada à sua área de atuação (qualidade, meio ambiente, saúde e segurança do trabalho) e supervisionando todos os sistemas construtivos. É responsável por realizar orçamentos e por planejar a execução de obras e, através do que foi executado, fazer as medições e direcionar os pagamentos proporcionais.</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted"></small>
+            </div>
+            </div>
+        </div>
+   </section>
+
+    <footer>
+        <div class="container-fluid bg-light p-3 mb-0">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <a href="#">
+                        <img id="imagemFooter" class="rounded-circle mr-4 mb-2" src="./img/instagram-logo.png" alt="Logotipo">
+                    </a>
+                    <a href="#">
+                        <img id="imagemFooter" class="rounded-circle mr-4 mb-2" src="./img/Logotipo-Face.jpeg" alt="Logotipo">
+                    </a>
+                
+                    <p class="mb-2">Penai - Escola Técnica
+                        Rua Caetes n°. XXXX, Centro, Belo Horizonte/MG, 
+                        CNPJ: XX.XXX.XXX/XXXX-XX</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- JS Próprio -->
+
+    <script src="./etapa05.js"></script>
+    <script src="./json.js"></script>
+
+</body>
+</html>

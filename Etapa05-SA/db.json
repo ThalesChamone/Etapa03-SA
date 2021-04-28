@@ -1,0 +1,35 @@
+{
+    "alunos":[
+        {"id": 1, "nome": "Ana", "turno": "Manhã","turma": "Turma 22-Técnico em Eletrônica", "idade": 18, "endereço": "Rua Pi I"},
+        {"id": 2, "nome": "Breno", "turno": "Manhã","turma": "Turma 44-Técnico em Mecânica", "idade": 23, "endereço": "Rua Pi II"},
+        {"id": 3, "nome": "Caroline", "turno": "Manhã","turma": "Turma 27-Técnico em Edificações", "idade": 25, "endereço": "Rua Pi III"},
+        {"id": 4, "nome": "Laís", "turno": "Manhã","turma": "Turma 22-Técnico em Eletrônica", "idade": 16, "endereço": "Rua Pi IV"},
+        {"id": 5, "nome": "Júlio", "turno": "Manhã","turma": "Turma 44-Técnico em Mecânica", "idade": 23, "endereço": "Rua Pi V"},
+        {"id": 6, "nome": "Marina", "turno": "Manhã","turma": "Turma 27-Técnico em Edificações", "idade": 25, "endereço": "Rua Pi VI"},
+        {"id": 7, "nome": "Thales", "turno": "Manhã","turma": "Turma 22-Técnico em Eletrônica", "idade": 28, "endereço": "Rua Pi VII"},
+        {"id": 8, "nome": "Camila", "turno": "Manhã","turma": "Turma 44-Técnico em Mecânica", "idade": 21, "endereço": "Rua Pi VIII"},
+        {"id": 9, "nome": "Carlos", "turno": "Manhã","turma": "Turma 27-Técnico em Edificações", "idade": 19, "endereço": "Rua Pi IX"},
+        {"id": 10, "nome": "Luiz", "turno": "Manhã","turma": "Turma 22-Técnico em Eletrônica", "idade": 23, "endereço": "Rua Pi X"},
+        {"id": 11, "nome": "Igor", "turno": "Manhã","turma": "Turma 44-Técnico em Mecânica", "idade": 32, "endereço": "Rua Pi XI"},
+        {"id": 12, "nome": "Pietro", "turno": "Manhã","turma": "Turma 27-Técnico em Edificações", "idade": 26, "endereço": "Rua Pi XII"},
+        {"id": 13, "nome": "Janice", "turno": "Manhã","turma": "Turma 22-Técnico em Eletrônica", "idade": 32, "endereço": "Rua Pi XIII"},
+        {"id": 14, "nome": "Rodrigo", "turno": "Manhã","turma": "Turma 44-Técnico em Mecânica", "idade": 27, "endereço": "Rua Pi XIV"},
+        {"id": 15, "nome": "Claudia", "turno": "Manhã","turma": "Turma 27-Técnico em Edificações", "idade": 48, "endereço": "Rua Pi XV"},
+        {"id": 16, "nome": "Rubem", "turno": "Manhã","turma": "Turma 22-Técnico em Eletrônica", "idade": 17, "endereço": "Rua Pi XVI"},
+        {"id": 17, "nome": "Pedro", "turno": "Manhã","turma": "Turma 44-Técnico em Mecânica", "idade": 18, "endereço": "Rua Pi XVII"},
+        {"id": 18, "nome": "Ana Elisa", "turno": "Manhã","turma": "Turma 27-Técnico em Edificações", "idade": 35, "endereço": "Rua Pi XVIII"},
+        {"id": 19, "nome": "Joao", "turno": "Manhã","turma": "Turma 22-Técnico em Eletrônica", "idade": 23, "endereço": "Rua Pi XIX"},
+        {"id": 20, "nome": "Larissa", "turno": "Manhã","turma": "Turma 44-Técnico em Mecânica", "idade": 44, "endereço": "Rua Pi XX"},
+        {"id": 21, "nome": "Miguel", "turno": "Manhã","turma": "Turma 27-Técnico em Edificações", "idade": 25, "endereço": "Rua Pi XXI"},
+        {"id": 22, "nome": "Antonio", "turno": "Manhã","turma": "Turma 22-Técnico em Eletrônica", "idade": 26, "endereço": "Rua Pi XXII"},
+        {"id": 23, "nome": "Miguel", "turno": "Manhã","turma": "Turma 44-Técnico em Mecânica", "idade": 20, "endereço": "Rua Pi XXIII"}
+    ],
+    "professores": [
+        {"id": 1, "nome": "Manoel", "turno": "Manhã","turma": "Turma 22-Técnico em Eletrônica", "idade": 38, "codigo": "4455"},
+        {"id": 2, "nome": "Larissa", "turno": "Manhã","turma": "Turma 44-Técnico em Mecânica", "idade": 33, "codigo": "6565"},
+        {"id": 3, "nome": "Henrique", "turno": "Manhã","turma": "Turma 27-Técnico em Edificações", "idade": 44, "codigo": "7676"}
+    ],
+    "escola": {
+        "nome": "Penai - Escola Técnica"
+    }
+}
