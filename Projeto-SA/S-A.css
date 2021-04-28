@@ -1,0 +1,26 @@
+.bg-gradient2{
+    background: linear-gradient(55deg,purple,tomato);
+}
+
+
+.rounded-circle{
+    height: 70px;
+    width: 70px;
+}
+
+.bg-gradient{
+    background: linear-gradient(55deg,tomato,purple);
+}
+
+.fuba{
+    color: red;
+}
+
+.chocolate{
+    color: red;
+}
+
+.navbar-toggler-icon {
+    background-color: white !important;
+}
+

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+
+    <!-- CSS Bootstrap -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!-- CSS Próprio -->
+
+    <link rel="stylesheet" href="./S-A.css">
+
+   
+
+</head>
+<body class="bg-gradient2">
+
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-gradient">
+            <div>
+                <img class="rounded-circle mr-4" src="./img/Logotipo.png" alt="Logotipo">
+                <a class="navbar-brand text-white" href="./index.html">Bolo Festivais</a>
+            </div>
+            <button class="navbar-toggler" data-toggle="collapse" href="#menu">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="menu" class="collapse navbar-collapse">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="./produtos.html">Produtos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="./cadastro.html">Cadastro</a>
+                  </li>
+                </ul>
+            </div>
+        </nav>
+      </header>
+    
+    <div class="container mt-5 jumbotron">
+        <div class="row">
+            <div class="col-md-12">
+                <h4 class="mb-3 ml-2">Cadastro</h4>
+                <form action="" class="mb-5">
+                    <div class="row">
+                    <div class="form-group col-md-6">
+                        <label for="NomeUsuario">Nome</label>
+                        <input type="text" id="NomeUsuario" class="form-control" name="NomeUsuario">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="SobrenomeUsuario">Sobrenome</label>
+                        <input type="text" id="SobrenomeUsuario" class="form-control">
+                    </div>
+                    <div class="form-group col-md-12">
+                        <label for="ENDEREÇO">Endereço</label>
+                        <input type="text" id="ENDEREÇO" class="form-control">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="">Estado</label>
+                        <select class="form-control" name="estado" id="estado">
+                            <option value="" selected>-- Selecione --</option> 
+                            <optgroup label="Sudeste">
+                                <option value="mg">Minas Gerais</option>
+                                <option value="rj">Rio de Janeiro</option>
+                                <option value="sp">São Paulo</option>
+                                <option value="es">Espírito Santo</option>
+                            </optgroup>
+                            <optgroup label="Sul">
+                                 <option value="rs">Rio Grande do Sul</option>
+                                 <option value="sc">Santa Catarina</option>
+                                 <option value="pr">Paraná</option>                
+                            </optgroup>
+                            <optgroup label="Nordeste">
+                                 <option value="ba">Bahia</option>
+                                 <option value="pi">Piauí</option>
+                                 <option value="mr">Maranhão</option>
+                                 <option value="ce">Ceará</option>
+                                 <option value="rn">Rio Grande do Norte</option>
+                                 <option value="pa">Paraíba</option>
+                                 <option value="pe">Pernambuco</option>
+                                 <option value="al">Alagoas</option>
+                                 <option value="se">Sergipe</option>
+                            </optgroup>
+                            <optgroup label="Norte">
+                                <option value="am">Amazonas</option>
+                                <option value="rr">Roraima</option>
+                                <option value="ac">Acre</option>
+                                <option value="pa">Pará</option>
+                                <option value="am">Amapá</option>
+                                <option value="ro">Rondônia</option>
+                                <option value="to">Tocantins</option>
+                            </optgroup>
+                            <optgroup label="Centro Oeste">
+                                <option value="ms">Mato Grosso</option>
+                                <option value="go">Goiás</option>
+                                <option value="df">Distrito Federal</option>
+                                <option value="ms">Mato Grosso do Sul</option>
+                            </optgroup>
+                         </select>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="Cidade">Cidade</label>
+                        <input type="text" id="Cidade" class="form-control">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="">CEP</label>
+                        <input type="text" class="form-control" onblur="validacep(this.value)" >
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="correio">E-mail</label>
+                        <input type="email" id="correio" class="form-control">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="confirmar">Confirmar E-mail</label>
+                        <input type="email" id="confirmar" class="form-control">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="">Senha</label>
+                        <input type="password" class="form-control">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="">Confirmar senha</label>
+                        <input type="password" class="form-control">
+                    </div>
+                </div>
+                <button type="submit" onclick="validar()" id="cadastro" class="btn btn-primary btn-lg">Cadastrar</button>
+                <button type="reset" class="btn btn-secondary btn-lg">Limpar</button>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+    
+
+    
+
+    <footer>
+        <div class="container-fluid bg-gradient p-3 mb-0">
+            <div class="row">
+                <div class="col-sm-12 text-white text-center">
+                    <a href="./index.html">
+                        <img class="rounded-circle mr-4 mb-2" src="./img/instagram-logo.png" alt="Logotipo">
+                    </a>
+                    <a href="./index.html">
+                        <img class="rounded-circle mr-4 mb-2" src="./img/Logotipo-Face.jpeg" alt="Logotipo">
+                    </a>
+                   
+                    <p class="mb-2">Bolo Festivais Ltda.
+                        Rua Professor Atílio n°. XXXX, Vila Nova Conceição, São Paulo/SP, 
+                        CNPJ: XX.XXX.XXX/XXXX-XX</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+
+
+
+
+
+    <!-- Extensões úteis Bootstrap -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+
+     <!-- Scripts Próprios -->
+     <script type="text/javascript" src="S-A.js"></script>
+
+</body>
+</html>

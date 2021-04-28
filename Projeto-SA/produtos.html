@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+
+    <!-- CSS Bootstrap -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!-- CSS Próprio -->
+
+    <link rel="stylesheet" href="./S-A.css">
+
+</head>
+<body class="bg-gradient2">
+
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-light bg-gradient">
+        <div>
+            <img class="rounded-circle mr-4" src="./img/Logotipo.png" alt="Logotipo">
+            <a class="navbar-brand text-white" href="./index.html">Bolo Festivais</a>
+        </div>
+        <button class="navbar-toggler" data-toggle="collapse" href="#menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="menu" class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./produtos.html">Produtos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./cadastro.html">Cadastro</a>
+              </li>
+            </ul>
+        </div>
+    </nav>
+  </header>
+    
+
+    
+
+    <section>
+        <div class="container mb-5">
+            <div class="row">
+                <div class="col-sm-12 text-dark text-center my-4">
+                    <h1 class="text-white">Produtos</h1>
+                </div>
+            </div>
+            <div id="AllProducts" class="row">
+                <div class="col-md-4 mb-2">
+                    <div class="card">
+                        <img src="./img/bolo-de-aniversario-de-chocolate.jpg" class="card-img-top" alt="Bolo Chocolate">
+                        <div class="card-body">
+                          <h5 class="card-title">Bolo de Chocolate</h5>
+                          <button data-toggle="collapse" data-target="#oculta">Ver ingredientes</button>
+                            <div id="oculta" class="collapse">
+                                <p><b>Ingredientes Massa</b></p>
+                                2 xícaras de chá de farinha de trigo
+                                <br>
+                                1 ½ xícaras chá de	Açúcar
+                                <br>
+                                1 colher sopa de	Fermento em pó quimico 
+                                <br>
+                                ½ xícara chá de	Óleo de milho
+                                <br>
+                                2 unidades de ovo
+                                <br>
+                                1 xícara chá de	Chocolate em Pó 70 Cacau
+                                <br>
+                                1 xícara chá de	Leite fervente
+                                <br><br>
+                                <p><b>Ingredientes recheio e cobertura</b></p>
+                                400 g	Cobertura sabor chocolate meio amargo raspado
+                                <br>
+                                1 caixa de	Creme de Leite (200 g)
+                                <br>
+                                1 colher sopa de	Manteiga (15 g)
+                                <br>
+                                1 colher café de	Aroma Avelã Dr. Oetker (2,5 ml)
+                                <br>
+                                1 pacote de	Confeito Choc Bola 
+                                <br>
+                                1 pacote de	Confeito Choc Bolinha
+                                <br>
+                                1 embalagem	Doce de Festa Brigadeiro 
+                                <br>
+                                1 pacote de	Confeito Pepita 
+                              </div>
+                          <p class="card-text"></p>
+                            <p class="chocolate">R$ 45,00</p>
+                          <a href="#" id="adiciona"  class="btn btn-primary">Adicionar</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <div class="card"">
+                        <img src="./img/Bolo-de-fuba.jpg" class="card-img-top" alt="Bolo Fubá">
+                        <div class="card-body">
+                          <h5 class="card-title">Bolo de Fubá</h5>
+                            <button data-toggle="collapse" data-target="#ocultafuba">Ver ingredientes</button>
+                            <div id="ocultafuba" class="collapse">
+                                <p><b>Ingredientes Massa</b></p>
+                                1 e 1/2 copo (de 250 ml) de açúcar
+                                <br>
+                                1 copo (de 250 ml) de farinha de trigo
+                                <br>
+                                1 copo (de 250 ml) de óleo
+                                <br>
+                                1 copo (de 250 ml) de leite
+                                <br>
+                                3 unidades de ovo
+                                <br>
+                                1 e 1/2 copo (de 250 ml) de fubá
+                                <br>
+                                1 colher de sopa de fermento em pó   
+                              </div>
+                          <p class="card-text"></p>
+                            <p class="fuba">R$ 28,00</p>
+                          <a href="#" class="btn btn-primary">Adicionar</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <div class="card"">
+                        <img src="./img/receita-de-bolo-de-sorvete.jpg" class="card-img-top" alt="Bolo Sorvete">
+                        <div class="card-body">
+                          <h5 class="card-title">Bolo de Sorvete</h5>
+                          <button data-toggle="collapse" data-target="#ocultasorvete">Ver ingredientes</button>
+                            <div id="ocultasorvete" class="collapse">
+                                <p><b>Ingredientes Massa</b></p>
+                                2 xícaras (chá) de açúcar
+                                <br>
+                                1 xícara (chá) de água fervendo
+                                <br>
+                                1 xícara (chá) de chocolate em pó 50%
+                                <br>
+                                2 xícaras e ½ (chá) de farinha de trigo
+                                <br>
+                                5 unidades de ovo
+                                <br>
+                                1 colher (sopa) rasa de fermento
+                                <br>
+                                1 pitada de sal
+                                <br><br>
+                                <p><b>Ingredientes calda e cobertura</b></p>
+                                5 colheres (sopa) de chocolate em pó
+                                <br>
+                                7 colheres (sopa) de água
+                                <br>
+                                1 caixinha de creme de leite
+                                <br>
+                                200g de chocolate meio amargo
+                                <br>
+                                ½ colher de manteiga 
+                              </div>
+                          <p class="card-text"></p>
+                          <p class="fuba">R$ 55,00</p>
+                          <a href="#" class="btn btn-primary">Adicionar</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card"">
+                        <img src="./img/bolo-cafe-chocolate.jpg" class="card-img-top" alt="Bolo Cafe Chocolate">
+                        <div class="card-body">
+                          <h5 class="card-title">Bolo de Café com Chocolate</h5>
+                          <button data-toggle="collapse" data-target="#ocultacafe">Ver ingredientes</button>
+                            <div id="ocultacafe" class="collapse">
+                                <p><b>Ingredientes Massa</b></p>
+                                3 ovos
+                                <br>
+                                1 xícara (chá) de leite
+                                <br>
+                                1 xícara (chá) de óleo
+                                <br>
+                                1/2 xícara (chá) de café pronto
+                                <br>
+                                2 xícaras (chá) de açúcar
+                                <br>
+                                1 xícara (chá) de chocolate em pó
+                                <br>
+                                2 e 1/2 xícaras (chá) de farinha de trigo
+                                <br>
+                                1 colher (sopa) de fermento em pó
+                                <br>
+                                1 xícara (chá) de castanha-do-pará picada
+                                <br>
+                                Manteiga e farinha de trigo para untar
+                                <br>
+                                Castanha-do-pará picada para polvilhar
+                                <br><br>
+                                <p><b>Ingredientes calda</b></p>
+                                1/2 xícara (chá) de açúcar mascavo
+                                <br>
+                                1 colher (sopa) de manteiga
+                                <br>
+                                3 colheres (sopa) de água
+                                <br>
+                                1 caixa de creme de leite (200g) 
+                              </div>
+                          <p class="card-text"></p>
+                            <p class="chocolate">R$ 32,00</p>
+                          <a href="#" class="btn btn-primary">Adicionar</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card"">
+                        <img src="./img/bolo-cenoura.jpg" class="card-img-top" alt="Bolo Cenoura com Chocolate">
+                        <div class="card-body">
+                          <h5 class="card-title">Bolo de Cenoura com Chocolate</h5>
+                          <button data-toggle="collapse" data-target="#ocultacenoura">Ver ingredientes</button>
+                            <div id="ocultacenoura" class="collapse">
+                                <p><b>Ingredientes Massa</b></p>
+                                  2 xícaras de chá de cenoura picada
+                                  <br>
+                                  4 ovos (claras e gemas separadas)
+                                  <br>
+                                  2 xícaras de chá de açúcar
+                                  <br>
+                                  2 xícaras de chá de farinha de trigo
+                                  <br>
+                                  1 xícara de chá de óleo
+                                  <br>
+                                  1 colher de café de fermento em pó
+                                  <br><br>
+                                  <p><b>Ingredientes Cobertura</b></p>
+                                  1 lata de leite condensado
+                                  <br>
+                                  1 caixinha de creme de leite
+                                  <br>
+                                  1 colher de sopa cheia de margarina
+                                  <br>
+                                  3 colheres de sopa cheias de chocolate em pó
+                              </div>
+                          <p class="card-text"></p>
+                            <p class="chocolate">R$ 40,00</p>
+                          <a href="#" class="btn btn-primary">Adicionar</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card"">
+                        <img src="./img/bolo-de-laranja.jpg" class="card-img-top" alt="Bolo de Laranja">
+                        <div class="card-body">
+                          <h5 class="card-title">Bolo de Laranja</h5>
+                          <button data-toggle="collapse" data-target="#ocultalaranja">Ver ingredientes</button>
+                          <div id="ocultalaranja" class="collapse">
+                              <p><b>Ingredientes Massa</b></p>
+                              4 ovos grandes
+                              <br>
+                              suco de 2 laranjas
+                              <br>
+                              1 xícara (chá) de óleo
+                              <br>
+                              2 xícaras de farinha de trigo bem cheias
+                              <br>
+                              1 xícara de açúcar bem cheia
+                              <br>
+                              1 colher (sopa) de fermento bem cheia
+                              <br>
+                              Raspas de laranja
+                            </div>
+                          <p class="card-text"></p>
+                            <p class="chocolate">R$ 30,00</p>
+                          <a href="#" class="btn btn-primary">Adicionar</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4 mt-2">
+                    <div class="card"">
+                        <img src="./img/bolo-de-maracuja.jpg" class="card-img-top" alt="Bolo de Maracujá">
+                        <div class="card-body">
+                          <h5 class="card-title">Bolo de Maracujá</h5>
+                          <button data-toggle="collapse" data-target="#ocultamaracuja">Ver ingredientes</button>
+                            <div id="ocultamaracuja" class="collapse">
+                                <p><b>Ingredientes Massa</b></p>
+                                1 copo americano de farinha de trigo (Tabela de Medidas)
+                                <br>
+                                1 copo americano de óleo
+                                <br>
+                                1 copo americano de açúcar
+                                <br>
+                                1 copo americano de polpa de maracujá com sementes
+                                <br>
+                                5 ovos
+                                <br>
+                                1 colher (sopa) de fermento em pó
+                                <br><br>
+                                <p><b>Ingredientes Cobertura</b></p>                            
+                                1 xícara (chá) de açúcar
+                                <br>
+                                1 xícara (chá) de polpa de maracujá com as sementes
+                              </div>
+                          <p class="card-text"></p>
+                            <p class="chocolate">R$ 38,00</p>
+                          <a href="#" class="btn btn-primary">Adicionar</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4 mt-2">
+                    <div class="card"">
+                        <img src="./img/bolo-de-frutas.jpg" class="card-img-top" alt="Bolo de Frutas">
+                        <div class="card-body">
+                          <h5 class="card-title">Bolo de Frutas</h5>
+                          <button data-toggle="collapse" data-target="#ocultafrutas">Ver ingredientes</button>
+                          <div id="ocultafrutas" class="collapse">
+                              <p><b>Ingredientes Massa</b></p>
+                              5 ovos
+                              <br>
+                              2 xícaras de açúcar
+                              <br>
+                              2 xícaras e 1/2 de trigo
+                              <br>
+                              1 colher de pó royal
+                              <br>
+                              1 xícara de maisena
+                              <br>
+                              1 xícara de suco de abacaxi (para tirar o suco bata um pedaço com água no liquidificador e coe) Ou suco de laranja
+                              <br><br>
+                              <p><b>Ingredientes Recheio</b></p>
+                              1 lata de leite condensado
+                              <br>
+                              1 lata de creme de leite sem soro
+                              <br>
+                              3 colheres de maisena
+                              <br>
+                              2 latas de leite (medida da lata de leite condensado)
+                              <br>
+                              3 gemas peneiradas
+                              <br>
+                              1 abacaxi grande picadinho sem o miolo
+                              <br>
+                              1/2 copo de açúcar
+                            </div>
+                          <p class="card-text"></p>
+                            <p class="chocolate">R$ 65,00</p>
+                          <a href="#" class="btn btn-primary">Adicionar</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4 mt-2">
+                    <div class="card"">
+                        <img src="./img/Bolo-de-Limão-com-Gelatina.jpg" class="card-img-top" alt="Bolo de Limao com gelatina">
+                        <div class="card-body">
+                          <h5 class="card-title">Bolo de Limão com Gelatina</h5>
+                          <button data-toggle="collapse" data-target="#ocultalimao">Ver ingredientes</button>
+                          <div id="ocultalimao" class="collapse">
+                              <p><b>Ingredientes Massa</b></p>
+                              3 ovos inteiros
+                              <br>
+                              1 xícara (chá) de açúcar
+                              <br>
+                              1/2 xícara (chá) de óleo
+                              <br>
+                              1 xícara (chá) de leite
+                              <br>
+                              1 sachê de gelatina sabor limão
+                              <br>
+                              1 pitada de sal
+                              <br>
+                              3 xícaras (chá) de farinha de trigo
+                              <br>
+                              1 colher (sopa) de fermento químico em pó
+                              <br><br>
+                              <p><b>Ingredientes Cobertura</b></p>
+                              1 lata de leite condensado
+                              <br>
+                              60 ml de suco de limão espremido
+                              <br>
+                              1 colher (sopa) de creme de leite
+                            </div>
+                          <p class="card-text"></p>
+                            <p class="chocolate">R$ 43,00</p>
+                          <a href="#" class="btn btn-primary">Adicionar</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div id="carros" class="container mt-5 jumbotron">
+
+      <form action="">
+        <div id="produtos"></div>
+
+        <h2>Carrinho:</h2>
+        <div id="carrinho"></div>
+
+        <h2>Total da compra</h2>
+        <div id="totalcompra"></div>
+
+        <button id="resetar" class="btn btn-secondary btn-lg">Limpar</button>
+      </form>
+      
+
+    </div>
+
+    <footer>
+        <div class="container-fluid bg-gradient p-3 mb-0">
+            <div class="row">
+                <div class="col-sm-12 text-white text-center">
+                    <a href="./index.html">
+                        <img class="rounded-circle mr-4 mb-2" src="./img/instagram-logo.png" alt="Logotipo">
+                    </a>
+                    <a href="./index.html">
+                        <img class="rounded-circle mr-4 mb-2" src="./img/Logotipo-Face.jpeg" alt="Logotipo">
+                    </a>
+                   
+                    <p class="mb-2">Bolo Festivais Ltda.
+                        Rua Professor Atílio n°. XXXX, Vila Nova Conceição, São Paulo/SP, 
+                        CNPJ: XX.XXX.XXX/XXXX-XX</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+
+
+
+
+
+    <!-- Extensões úteis Bootstrap -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+
+    <!-- Scripts Próprios -->
+    <script type="text/javascript" src="S-A.js"></script>
+
+</body>
+</html>
